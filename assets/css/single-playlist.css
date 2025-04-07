@@ -51,7 +51,7 @@ body::-webkit-scrollbar {
     border-radius: 50%; /* Circular image */
     cursor: pointer; /* Shows pointer on hover */
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); /* Glow around the logo */
-    animation: spin 6s linear infinite; /* Infinite slow spin effect */
+    /* Infinite slow spin effect */
     transition: transform 0.3s ease; /* Smooth zoom on hover */
 }
 
@@ -65,14 +65,7 @@ body::-webkit-scrollbar {
     font-family: 'Orbitron', sans-serif; 
     text-shadow: 0px 0px 4px #fff; /* Slight glow to make it stand out */
 }
-@keyframes scale {
-	0% {
-		transform: scale(1.2); /* Starts enlarged */
-	}
-	100% {
-		transform: scale(1);   /* Ends at normal size */
-	}
-}
+
 /* -------------------------- */
 
 
