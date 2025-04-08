@@ -58,12 +58,12 @@ body {
 }
 
 .left-nav .name {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: 1.6rem;
   color: #fff;
-  text-shadow: none; /* Removed glow */
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 .left-nav .name:hover {
   color: #72ddf7;
@@ -76,7 +76,7 @@ body {
   margin-left: 2rem;
   gap: 0.5rem;
   letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Cinzel", serif;
   cursor: pointer;
   padding: 0.5rem 1rem;
   border-radius: 10px;
